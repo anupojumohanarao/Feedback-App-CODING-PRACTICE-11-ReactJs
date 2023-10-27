@@ -1,0 +1,128 @@
+/* Write your CSS code here. */
+
+.main-container {
+  background: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 50vh;
+  width: 50vw;
+}
+
+@media screen and (min-height: 765px) {
+  .main-card-container {
+    height: 40vh;
+    width: 22vw;
+  }
+}
+
+.main-feedback-heading {
+  color: #0f172a;
+  font-size: 23px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+@media screen and (min-height: 765px) {
+  .main-feedback-heading {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+.total-emojis-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 32px;
+  padding: 0px;
+}
+
+.main-button {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.main-emoji {
+  height: 40%;
+  width: 40%;
+}
+
+@media screen and (min-height: 765px) {
+  .main-emoji {
+    height: 30%;
+    width: 30%;
+  }
+}
+
+.emoji-name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+
+@media screen and (min-height: 765px) {
+  .emoji-name {
+    font-size: 20px;
+  }
+}
+
+.main-thankyou-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 50vh;
+  width: 50vw;
+}
+
+@media screen and (min-height: 765px) {
+  .main-thankyou-container {
+    height: 40vh;
+    width: 22vw;
+  }
+}
+
+.love-emoji {
+  height: 60px;
+  width: 65px;
+}
+
+@media screen and (min-height: 765px) {
+  .love-emoji {
+    height: 65px;
+    width: 65px;
+  }
+}
+
+.main-thankyou {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.main-love-paragraph {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+
+@media screen and (min-height: 765px) {
+  .main-love-paragraph {
+    font-size: 25px;
+    text-align: center;
+  }
+}
